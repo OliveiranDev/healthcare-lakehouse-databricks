@@ -1,0 +1,201 @@
+beneficiario_id,cpf_hash,data_nascimento,idade,sexo,uf,municipio,canal_aquisicao,segmento_vinculo
+19894,292a52f84e1e7853506bff4d0b40e0d4979071765a2070cb631cc3fca785ea70,1993-12-31,32,M,MG,Cassiano de Goiás,corretor,individual_familiar
+9995,269b8e5d9aacf95b49be76c302b1f6451464a8c4a689b80683a886eeccf3fbe9,1966-12-31,59,M,SP,Pinto,empregador,individual_familiar
+15766,96a2df736841ee9e3221365916befcb085f51b0c334aed773506a48057bd1768,1977-12-31,48,M,SC,Aragão,digital,empresarial
+22957,2aea386dcedbe110c81d103ed428e60cef58439dadb8a9e3c71225c19b2e4f16,1989-12-31,36,,SP,Moura,digital,empresarial
+16639,bcf4a1199f7163d541252400bd9a9f20cd78ace2ed82bd60857771f7f3188fb3,1995-12-31,30,M,RJ,da Rocha,empregador,empresarial
+17039,c91a0c42315794bdb24046ea944319a15d69a22ad4f1785d15e60d71759567b3,2000-12-30,25,F,RJ,Carvalho das Pedras,digital,individual_familiar
+18863,f4fd2059b7b3cfbbb61c7d8fd30421f983b2ba99d5ba7418416b5d99ab2a9d91,1998-12-31,27,M,RS,Rodrigues do Norte,empregador,individual_familiar
+14010,0f5b2def46937c6b452b02f44abab206da6b11667c0713041b6cc95d695878cd,1956-12-30,69,M,RJ,da Cunha da Serra,digital,empresarial
+878,9c7a472bedfed20943a3077dd5ddc7c5cd7ed32bf160806435b14add43ecfbe1,1980-12-30,45,F,SP,Cunha de Costa,corretor,coletivo_adesao
+5319,71b1a4ba6634c41815a943685f082eebf351971766b15aa8f2f41ad3999310d9,1986-12-31,39,M,PR,Moura de Minas,corretor,empresarial
+9430,86b5b85a53798d6698bd9636ef3ef7542c4d07003818a13940b1560b990d9d5e,1955-12-31,70,F,RJ,Teixeira de da Mata,corretor,empresarial
+18607,2ac8cc433e870312ee2f3198d1ab850f38b74955325f5dcb5ed4ec2e1f0ccb67,1951-12-31,74,M,SP,MENDES DO CAMPO,corretor,individual_familiar
+20754,0f30ef611ada3ebe2ee60f8bae792daea3e1079f811467957189b930ee9b227a,1993-12-31,32,M,SP,PEREIRA,corretor,empresarial
+6077,3a4a93484bf23a7230e05844538ae853d0577570563f41a8df83edacc8eb1e08,2001-12-31,24,F,SC,Aparecida da Praia,corretor,empresarial
+8325,a7da36ab026280d76cf69f05b30a7911967b905540dfc26608d13da1f60d6ef9,1982-12-31,43,M,PR,Abreu da Serra,corretor,empresarial
+4327,8c3a4f09bdbefe2a105061f63721974d68d1cd407dbe4d01e59665a938e656a5,1991-12-31,34,F,CE,Almeida da Mata,empregador,empresarial
+20676,cf42a2ca0f1566597b8371e0d50bb14e89d9423f68fd8be65cba34357c9d0daf,1970-12-31,55,M,CE,Rocha,corretor,empresarial
+4483,2d6463df0a5d11275b51443f5da8201e3a97155bea17726588f96295945156c9,1995-12-31,30,M,SP,Campos,empregador,coletivo_adesao
+5003,92a2252dd7b8974bb937d609e7ebbbeaa32a1611f63d67e1f4b9b0d9d8f1c340,2008-12-30,17,F,SP,Camargo de Almeida,empregador,individual_familiar
+23501,f86ef2f9e62b47b87b5a3133b2f857b6f636126c9dcf082e1eb3c2a26839669e,1983-12-31,42,F,SP,Marques,corretor,coletivo_adesao
+19541,a3840980ca7c8b36d90d37dc2c16530d64844d44f753292e6b985c9fec5f0702,1992-12-30,33,F,RJ,RIOS DA PRATA,adesao,empresarial
+13695,fc398b94932f059d4bfa66f2fdbf5e8961fd820375fb061892cc6ab47b31441c,1995-12-31,30,M,SP,,empregador,coletivo_adesao
+6043,40b903a97db31183f974385da87fe72319411b3fcbf2b950d5cf85460f2153e4,1952-12-30,73,M,BA,Fernandes,digital,empresarial
+12280,94d73949e91f29ea45eb34aa51f396b90cd65cd57e25df68e6339c216f0fa7bd,2000-12-30,25,F,RJ,Vasconcelos da Praia,digital,empresarial
+5349,63153f6b29094d1f6598e241c9defe14f8228528f54fd557f3f587b15425f6bb,2011-12-31,14,M,DF,Porto de Santos,corretor,empresarial
+13951,5ffe2110f30e14194371d30dc137ee987152a3a28affe340076b126acb23c4d6,1992-12-30,33,F,SP,Cassiano das Flores,corretor,individual_familiar
+10576,1011a2bcaf629bb466a6eb2a5bfcd76eb675358b8088aa7ad90d7cc7fb14de31,1977-12-31,48,M,SP,Jesus,corretor,empresarial
+17325,1932fd3ce44353372d83aeddf73db6ce81b62bb1df5e1e056485126c3e343150,1963-12-31,62,F,BA,Cavalcante do Galho,corretor,individual_familiar
+6946,24ac7c8b2d500cdefa98e6a8c67d0db45ef71b3c047ea04d768e2ed639c37bca,1968-12-30,57,M,SC,Sá Verde,adesao,empresarial
+4478,4f55a7658f47fb135b6acd3dd6ad63116d01bfa5fe2b5ccff798051bf6e62825,1972-12-30,53,M,RS,Oliveira da Praia,corretor,individual_familiar
+15107,fff769a15e923000cef8eb6b0e9768e413a4f5cf3222e937e48b65831edee236,1986-12-31,39,M,DF,RAMOS DO NORTE,digital,individual_familiar
+6724,b1e93901384253f37347fab3f6d5ac1a2df8ce0512bedab30e61d5ec2a96252b,2018-12-31,7,F,BA,Mendonça do Campo,digital,individual_familiar
+3799,0a351a7c8ac25307b800821a8e99a30e11f3e3f54ab5175f3cffa25ffc345943,1997-12-31,28,M,SP,Rios de Minas,digital,individual_familiar
+13045,9ae3d24b6d0a9cbacaa38a209a159ecff21978c01896f72d99759a7df92bfdde,2002-12-31,23,F,SP,Mendes,empregador,empresarial
+10134,235066e7b9f360e6638e3e631231908686899167973f04f8c208db5fcfc0b5d5,1987-12-31,38,M,RS,Costela,digital,empresarial
+3008,1ef104a41a694240217809cf71146ebfe09768412667d9f445b5c7790bfe5133,2005-12-31,20,F,DF,Pereira,digital,individual_familiar
+9799,0b63d0804c008da12d2947d6f3bf374fcd60cd63a4e4b48a61cf1f3bbf11bf82,1985-12-31,40,F,SC,Gomes,corretor,coletivo_adesao
+4264,e28f2330ebe86b0cd3760cea7d5b3f2dab860333b553ff26b91bdd1ac2d355eb,1987-12-31,38,F,PR,da Costa Paulista,empregador,individual_familiar
+15423,ce68fc326ab31b85478df2292f1f51e7416939cd1256a550634132a7bc4f9583,1963-12-31,62,M,MG,Cassiano de Minas,corretor,empresarial
+19592,1592d48180552f5b1051f3730e9fad399e0562408c84718f1f0ff8f1aacb3df2,1996-12-30,29,F,PR,Jesus,corretor,coletivo_adesao
+3589,051aaa7e66bfeba4139540a46362407bf3ba576b38454ae8db941de4e8c0d74d,1966-12-31,59,M,SC,Souza,corretor,empresarial
+19423,f0ae3876a1b9e020bf98ec629c973b6735164378022ac7f12bc806704cb905bf,1983-12-31,42,F,PR,Lima,corretor,individual_familiar
+9581,e4b0381d574abc84c74516cc64ee871e2ee912a442ec91857dc857881ecdbe7a,1962-12-31,63,M,SP,Cavalcante,digital,empresarial
+21290,8eeaa55261cbc9d685f40d5ae84870c5ab2115d8482f7855dac58005a898d405,1975-12-31,50,F,MG,da Costa,empregador,individual_familiar
+15069,dfdf2cee17f805fca9eb83a5ba9bf9749f15d5c8b1253bd04e780884e1470477,1988-12-30,37,F,BA,Campos do Norte,adesao,individual_familiar
+4860,be7099754710ec464dba29b56facd440114d853e2004677827022c801dcd36b0,1985-12-31,40,F,RJ,Pereira,corretor,individual_familiar
+10178,d8698d6ac6c87fd8cb387eed122947961e1244e37e2d6adb37ccc181cb04d499,1975-12-31,50,M,PR,PIRES ALEGRE,corretor,empresarial
+3865,ea56c5df7f0b4fb346e674a74c7c8ac753b1ccc826938cae9f4a6cf3fca75963,1988-12-30,37,M,PE,Farias,empregador,individual_familiar
+15881,00f633f576431f45431ca14504faacf476f186ca3834a9d1477819344c6d3b8e,1993-12-31,32,F,SP,Macedo,digital,individual_familiar
+23069,260ba5135cfc23aeaacfa7e5ec7ff694aefb47835b8a51cee3e4bdd0d53ac015,1984-12-30,41,,RS,Aparecida do Oeste,empregador,individual_familiar
+15338,972437bc7c8f16ee0f873d1d40b828b5ab8523aa9461bd087252c6d25464fc36,1978-12-31,47,M,RJ,Rios,corretor,individual_familiar
+8804,e4a2932c3377fd0591a4208053adf6a0a2d0ecb74918471644803cb1a225fcbc,1974-12-31,51,M,SP,Pastor de Machado,corretor,empresarial
+20376,0917b411373b097f96f0482cd1a7eadf9ba82e1db9fd6e75df1b3bf75d554298,1982-12-31,43,F,PE,Lima,corretor,individual_familiar
+7361,ac2281355456a2a9fe70dba904ee0a53f2cab69e894068ee3c6b11f37569ab71,1994-12-31,31,M,SP,Araújo,digital,empresarial
+4563,8858d8743073edfe414af6158e263e0bb7bfa44a48a62158c085f1a86efb1c42,1996-12-30,29,M,MG,Rios,corretor,empresarial
+6236,10be7afb8016fe4122e1da9189c7e9764906d79b378a8df588f35114068896d5,1969-12-31,56,F,DF,Melo das Flores,digital,individual_familiar
+10807,f1328154472c06b7cf663256458d9ffcfeae0a5fcec5c64e5977fec2dfcf08dd,1991-12-31,34,F,SC,Camargo da Mata,empregador,empresarial
+22922,6cf6a350d89bcb3caf0863084e7e84aba25ebefacec1e489ec4d1c9e22f51f76,1993-12-31,32,F,SP,Sampaio do Amparo,empregador,coletivo_adesao
+10177,017aa72c627fafa92a801713ec124190b9692b24642cb0356f768c58f3993f11,1984-12-30,41,M,PR,da Conceição do Galho,corretor,individual_familiar
+10279,333764c21c966fc1422bf90aec41c8b3bfbf5e5f9b3840e4c787f783b6e2ffb1,1981-12-31,44,M,SP,Fernandes,corretor,empresarial
+13700,980d35166b244036776efed09ec3f3e611212d3199a58d183d7b1e9fe51f7dad,1977-12-31,48,M,MG,Albuquerque de Goiás,empregador,empresarial
+13564,f9546421c71717237c23de2161e145c1b3e39dc32197b87f10220e1912fc065d,1988-12-30,37,M,RJ,MENDES GRANDE,digital,individual_familiar
+11922,9c49af8a07be7a3a6d57e3bb32b8599a9f40c22b39b7b2b3359102d21db265a3,1979-12-31,46,F,SC,Rios,digital,empresarial
+13247,e347a65b8a497962fd1e70e4168f280d7fd1953ce25a6543d2454d563ccf38ac,1946-12-31,79,M,SP,Siqueira,corretor,empresarial
+18922,9b317a2ad197eb0bd1e2d0d09dcaaccd4d62533e4fef688bc38b1cacfe86f853,1982-12-31,43,M,SP,Fogaça Paulista,corretor,individual_familiar
+11238,5a7f47be3fae6e1ffb241515b805912dabbb736cf50dc2333dd9aa57afbb48a2,1982-12-31,43,F,SP,Campos,corretor,individual_familiar
+14335,f266b5ce696f4389412ea1e2d90bab8707b15b00411de7886b615a3d3da9e8e6,1996-12-30,29,,GO,Vargas do Oeste,corretor,empresarial
+12045,3452957f1f78df4b9c12add579fbd57091c1841848a493bfff4e74ca6d59a101,1960-12-30,65,F,GO,Cavalcanti,empregador,empresarial
+17888,8f1ea6ecbc389073a5c75c3e579f098ed02c545b3427fd649669cddcab993cdb,1974-12-31,51,F,GO,GARCIA DO OESTE,empregador,individual_familiar
+22229,6d9ecf38de31e0d3ffdc3a065afa3c8a971e2b5c8cde05d04a1dca3ae013f94e,1972-12-30,53,,RJ,Novais,digital,individual_familiar
+10276,97d354273dbb9128fce6f77aaf9833aa1efe36b89488d721c52c0d7c0c04760a,1975-12-31,50,M,MG,Montenegro de Abreu,corretor,individual_familiar
+15998,129f13b4b802d725d870469654e976ce7fb51fb4dc838f7d42b16209aa338d8a,1987-12-31,38,F,SP,DA CUNHA PAULISTA,digital,empresarial
+11563,ad10977d53f88d38a5e68ab1cb80b444a5f1727afc3f5d0ba43f216be93797ee,2000-12-30,25,M,CE,Viana,corretor,coletivo_adesao
+22862,e260462aa1e2a188286b14c8f99ca60fd6c8b106e50f6baad5f42c891529af30,1991-12-31,34,M,BA,Monteiro de Rocha,empregador,empresarial
+19149,c6fd8aee5c3093548c4e0b4ea95b27fcc628c0709a94f69feacf847096c47207,2004-12-30,21,F,SP,da Mota de Nunes,digital,empresarial
+13295,0e93810f733198defc5aa8f4dedd5f3cb8df97c50f1713c00357008e05a5dd9e,1963-12-31,62,F,SP,Rocha,digital,individual_familiar
+13376,f3883d87fd9c3df897815013f91b33ab8afc507909af71e6b006511725b9409a,1977-12-31,48,M,SP,Barros da Praia,digital,individual_familiar
+18954,ac948160cb8f5872c857ae736fb7558e0d7824ab19c1c1f9df90cd84712703f7,1976-12-30,49,M,MG,Castro,corretor,individual_familiar
+21038,e8978382d24da8a3cf41521a58ca1b171e93e3162e0fc8cfa241eebca05b5e36,1985-12-31,40,F,SC,Montenegro do Sul,corretor,individual_familiar
+22139,73927e306f57a8c32ff99c57a97ffaa5df983cb66856108b0b7faa9428d2dc39,1981-12-31,44,M,DF,Viana dos Dourados,digital,empresarial
+23325,989a74adfc3ff7a7f04d4ad1f410dbb320d13315b1ce00b07bc1cee7fa90941e,1999-12-31,26,M,PE,Nascimento da Mata,digital,empresarial
+3967,433a4c7f0c777119f1420e747ecbf4f90f22335d472b00ec3dfaed8a2328fccf,1979-12-31,46,F,BA,Macedo do Campo,digital,empresarial
+7061,e1b1f5f27239b3afb8b7356a42c8c80c6ff1742db814105fbf77ae9537146b4c,1961-12-31,64,M,SP,AZEVEDO,empregador,empresarial
+20834,ea28b437e19c08152654f8f99c04138d1f14f11f4ba2d14c489ac4b46e64240f,1964-12-30,61,M,RJ,Sousa de Alves,digital,empresarial
+20488,6ab0bcc5cb165003bb273fffa7646247d8bdef1b9df552df3bb816c0dc17d800,1993-12-31,32,F,RS,Brito de Goiás,empregador,empresarial
+16048,a25cc68d4221c1e7d990bc33dec961d4c76378cd557681279347f6d9f0692088,2001-12-31,24,F,RS,Costela,corretor,empresarial
+21190,14964e34637e16634a5cb9f44312e1579a0f04bbe47b17539f55d22813d59aab,1990-12-31,35,F,SP,Rezende,corretor,empresarial
+15538,c4350482bfe139cde94ab181a1ccf7d77dbdb7716bd80054ca3381a59f88c2fb,2005-12-31,20,F,RJ,Cirino,corretor,coletivo_adesao
+17753,77bdf80ee78a839f1e67fbffcce4bddf0adf8c5e22f6f7ae519766c4cdc2cd98,1957-12-31,68,F,PR,Nunes Paulista,corretor,individual_familiar
+18347,62fba5edee958f195a4a324e2add384c69252dd085d79e8544edc5efcb29cb24,2001-12-31,24,F,SP,Azevedo da Mata,corretor,empresarial
+16161,6c97929144919b6f846602cdbff0d570c38069e9e4e8768e86edf9af65259dfa,1988-12-30,37,M,PE,Mendonça do Amparo,corretor,coletivo_adesao
+23504,769e1b502ec53ff99f4c8e654caf55c655ba708e970b04d4a7f32ce47a958e6d,1988-12-30,37,F,SP,da Cunha da Prata,digital,empresarial
+3092,66f333eb68f6b1a8775c961d343f814b0c49e660eb3ff199633b0558bbdaeb52,1972-12-30,53,M,SC,Cardoso,empregador,individual_familiar
+21714,aaf2bbd5b546739f7696fd78113914515dfa664980d4c4d4a7f4c1a917583793,1986-12-31,39,M,MG,Sampaio,corretor,individual_familiar
+16312,735d1615b8dc401f1f95f4d528f6d7e920564caeadbb6da83c3d248de0d75281,2008-12-30,17,F,SP,Abreu Alegre,corretor,empresarial
+6221,ed155bad2bd5bdf68c0aedc6c45de6606a4c02eb608fbd7c5676428a6360c329,1966-12-31,59,F,RJ,das Neves,empregador,individual_familiar
+4366,457fb7b82bb47a315cc87c15b88adfabc36f1e1eadda287936c6c2acdc5ed70f,1954-12-31,71,M,PR,Aparecida,empregador,individual_familiar
+16849,60d83cb29230d220455c672883e93915d8169cb344102a709eade204bdea6ee3,1976-12-30,49,M,SP,Abreu,adesao,coletivo_adesao
+9216,c1070af47421ee6b968f83f573574d999a96637240c4d86e346b6644659fb5a0,1966-12-31,59,F,SP,Viana,digital,empresarial
+17687,9822ea176e6ec26c8d6e53a4d9e08e1d0a64e891ed8cd1753cc1bbf786526c73,1991-12-31,34,M,SP,MARQUES,empregador,individual_familiar
+9055,484e2902763dc183befa1898786cd0d940bb99bcb47a1cc694fdedd10b900304,2007-12-31,18,M,RJ,Vasconcelos das Flores,digital,empresarial
+8817,c68a35f92b894f2d0a32d4290898b919acd61e51d6c2655c15af8e9bd5923a6d,1987-12-31,38,M,PR,Carvalho Verde,corretor,empresarial
+5785,bcba2a765d63f9a71fcf94abfb1b63ea3cf02fd1083f69fc111b5fbb26f0c32c,1985-12-31,40,M,RJ,Pastor do Campo,corretor,individual_familiar
+11899,8a1055e203e67bb0e668ee99b489c6850ddc83506ec5ef91a20b13ab8f06b6dc,2007-12-31,18,M,SP,da Costa,corretor,individual_familiar
+14619,0b7b5470eaee71104c1fc2a4aa94412493671ca9c4e70cac048c0c2165dda1d4,1965-12-31,60,M,RS,Porto,empregador,individual_familiar
+10497,3cf88cd86bade6834aeb1cf242966aa73b771f939445a234e57c168333704f0c,2004-12-30,21,F,RJ,Nogueira,corretor,coletivo_adesao
+19794,c82a39d6dc5a186da469edf18e6f72e12db32f9d328b4f7016424561b4c7a5c9,1982-12-31,43,M,PE,Pinto das Flores,corretor,empresarial
+1203,9dbb07642e67d19ccbba5563721cd2c410c5bb18edfbc1291b97b68fa1967526,1981-12-31,44,F,MG,Nascimento,corretor,individual_familiar
+22997,a96f754dafca188b4bf9497a06b364845f31aeef68dde5fba94cc47bb4979dca,1978-12-31,47,M,CE,NOGUEIRA,corretor,individual_familiar
+5595,36252a59f45dd8313b547a859b905d910c6efbe36c1d1745662dad4ab3f0fbf2,1967-12-31,58,F,RJ,da Luz,digital,coletivo_adesao
+6085,0074f005daf704fc89eba7bd780960efa29a6ffecd3841d5b2d7a30a92001710,1984-12-30,41,F,SP,da Rocha,adesao,empresarial
+6051,9c69cbb0b32f2fde3fe33a628c97aa0d2451a8d71f71efe87eed3843b41034fd,1964-12-30,61,F,RS,Nunes,corretor,individual_familiar
+6707,44d7d0209a718400dcd1ddc7fe3fe0127bf34e3c47521d90b63a508321bbc05f,1989-12-31,36,F,SP,,empregador,empresarial
+24766,e33e9fb6c1ef8fedae63e50d80a98434a4219ec1959be0f5e5fffdda38478ce3,1993-12-31,32,F,PR,,corretor,individual_familiar
+3505,9db51ee94bef022f7f470927ffa335b094d00bed3eb6651453e4f41583ad2229,1990-12-31,35,F,SC,RIBEIRO,corretor,individual_familiar
+16729,265fe88ba7d2f4188ffb79d7907beadb28b59200cdca792cd4cbb439398bc0d8,1981-12-31,44,M,DF,Macedo,empregador,coletivo_adesao
+75,83b095d5898e712168714a0f8fabee63d4bebbc0a4155c2c62efa993f6cf91ee,2020-12-30,5,,RJ,Guerra da Praia,corretor,empresarial
+21014,d261461329d246a1b53b09fa5af13fed9eba871466d260b7fb5d1b0d9f2b7df8,1976-12-30,49,M,MG,Cirino,corretor,empresarial
+4338,450a96417029e8bf1460324d2873d6e8d3ec2e23d8678525c2a39eb97de88410,1976-12-30,49,M,RJ,Teixeira,empregador,empresarial
+8791,da734bf7130329a113024f4e4b53e2a7623796ef2a90bda4f86a0f1c1ff299b2,2013-12-31,12,F,SC,Castro,corretor,coletivo_adesao
+15301,d775a673771a9dc5dbb33a1c945f927a71be9f8db13a6038b4bdb60fe8594c5e,2017-12-31,8,F,SC,FONSECA VERDE,digital,empresarial
+6281,d990aa476d6e7e6bfdd22bd56947a529a4223c4fc6b32232e9ba2ad180b13739,1981-12-31,44,F,RS,SILVEIRA,corretor,individual_familiar
+13478,5821a57d67455575237d662ac54467bde6cd91b2ddf871812f262e4cca485bed,1997-12-31,28,F,SC,Guerra,corretor,individual_familiar
+14604,f4e75a893aa16ae88cea36f1d97f81a24ea7cb7d689bf27f3a971dadf9081249,1976-12-30,49,M,SC,Leão de Oliveira,digital,individual_familiar
+5767,db5fd35488e45dc551d0e5f6ad8eac98df2742cb10117dd9beee3b2dd203221c,1974-12-31,51,F,PE,Correia,corretor,individual_familiar
+107,037f1904488dda81a1b209a731ba7ca851ec075d485d7e21259b07fb9b184353,1957-12-31,68,M,SP,Cavalcante,adesao,individual_familiar
+13384,63d2d37734789d6608b928b151dd01d248fe8e220620080f638b09ee071c831f,1970-12-31,55,M,MG,Pacheco,digital,individual_familiar
+18482,1e7a17892bfe5899d0efde72ca411b452d2677bdfa6deee596559a6b3f0bf70c,1958-12-31,67,F,PR,Nogueira de Brito,digital,individual_familiar
+16747,839b9ee2fcb0d604c82fe549d133bb969695f9dda43a8a414be46a1e53e9adbb,1966-12-31,59,F,SC,Porto de Silva,empregador,coletivo_adesao
+21352,62ab69f7d81fac196a0311f36da6d7912bd00f76088c8512b8e57a4834de21de,2008-12-30,17,F,PE,Aparecida da Prata,digital,empresarial
+17896,ae282b6cd8b1a3d1f19a0f8a36a161afd120f395271a6e4a229ef3ff2d447925,1983-12-31,42,M,RJ,Campos da Prata,corretor,empresarial
+21330,e359243776d060809ecac80fcce691f5ac62b27d6c79574da02c6a5acd1d4ea1,1996-12-30,29,M,RS,Moraes de Ramos,corretor,empresarial
+3300,c6b55b971cc5432a6e4c4b246da2b72056168fd091184afc0dc585c1bbcd6bf3,1967-12-31,58,M,PE,Moraes do Oeste,empregador,individual_familiar
+6386,163295f64616ef06a74ee686de284f81ba70bc6b02c94364be0489ef1e0e7c34,1965-12-31,60,F,SP,Viana,corretor,empresarial
+20318,38c4c2570ae36e40f3ed1a78090ed0ebaf489db6e6ad1a0cecdb38ce3ca29744,1966-12-31,59,M,SP,,corretor,coletivo_adesao
+11120,d4c895645406d4da0cab243456fe5fddfd980879d45908da0f63e07c09bbf74a,1969-12-31,56,M,PR,Leão da Mata,corretor,empresarial
+17780,8c20e88bd320e2c45622975e585062239b4ccf287b914a40c5e6f0337bcb3947,1986-12-31,39,M,SP,Dias,empregador,empresarial
+15948,b496a531ba7db6c233f0f7e996c176473e88223246bedcb7e0e58511329e69c6,1977-12-31,48,F,SP,Montenegro do Amparo,corretor,coletivo_adesao
+22115,ecb66485b54d185edd5997b40c580a935732a687532eca8067329f5499e1709b,1994-12-31,31,M,SP,Campos de Duarte,empregador,coletivo_adesao
+10690,a95ae5daf1f53d5637cb9ab400bdda5ffbfb0918e17bef6c4296eb8923ef3a2b,1990-12-31,35,M,MG,Jesus de Minas,corretor,individual_familiar
+12479,4d57abc452a0fa5ecbec35d7050e607c0da6875c626687b6f67f0a3f7fe43216,1976-12-30,49,M,MG,Pinto,corretor,individual_familiar
+9931,fe4d164dd3b5dd59de9c4a002af0a222585e63ef89c0f487baae76f2e6cd8bd7,1993-12-31,32,M,SP,Cirino das Flores,digital,individual_familiar
+4480,3651c6b547831fb3f9665c2e4625c1c747a74bf4d34c3f6b1afa322cd6a15087,1968-12-30,57,F,BA,Santos,corretor,empresarial
+22,ad459d0982bc38969e01a7b7ad44f35d4e7b9ceb6aeab1574f1511c338afa854,1986-12-31,39,M,PR,Santos,empregador,coletivo_adesao
+11550,dd3db6262f91aa74b9181bba7de34d75daf3bc2d6575e510e34735f725ce42c9,1996-12-30,29,F,RS,Rezende,empregador,coletivo_adesao
+6277,802c0e6b3e6960b89a65a9f947fd2dc2069e9b7cbe91631424e7c0b03e967da3,1970-12-31,55,F,DF,Cavalcanti,corretor,individual_familiar
+10289,400169e5c783a814ef022f6f8101f3d52746052e89ebda03af6aa2beefe5d2f5,1991-12-31,34,M,SP,Aparecida dos Dourados,corretor,empresarial
+9064,e9e51ee283b002cc30bdf4ce10749749c6b0a5c5183504d0308c78ea22f53e8e,1994-12-31,31,F,SP,Almeida,corretor,empresarial
+11363,bf57ea0bc84fb384f8501e899e9d39295a0acd8aa18cfbbea6dd8f7d0dd6cc9c,1995-12-31,30,F,PR,Leão dos Dourados,digital,coletivo_adesao
+6476,a31e81795ec5abfd50ff208c54c9e8a427249a942962f068d8f70b4674a0902b,1974-12-31,51,F,RJ,Gonçalves de Pereira,corretor,individual_familiar
+17172,55db2d69606a7277efc557bbaf4d748b0f25ddf466fdf95a7a6ad294f448abbe,1972-12-30,53,M,SP,Novais,corretor,individual_familiar
+2768,8471daccbf527a7568863b1c0f5fde2ff8d2664aeaafdd6e2c775f3037492abd,1977-12-31,48,M,SC,da Costa da Serra,adesao,coletivo_adesao
+13970,bd3203c15761000f697052723ae237267ed1dccf01ca4eacaa7737507fdce452,1997-12-31,28,F,SP,Carvalho da Prata,corretor,empresarial
+11845,99774c7ded9838975014cad7ecadd7853313fddce509eeac323d7e2a5183f1ca,1982-12-31,43,M,RS,Campos,corretor,empresarial
+1206,0a4d456027630e5979264461cc5d0fa8df42893694a43943e1d9c1e734533666,1982-12-31,43,M,SP,OLIVEIRA,empregador,individual_familiar
+11570,91394ca677b2d5e2f01dde714b9462baf82aad7e1cf4db6827cdf103e193c7ff,1992-12-30,33,M,RJ,Gomes,corretor,individual_familiar
+20901,a44560563f2b849b653e411b343bebd9bba3e3a493de72704cfede1e36ba3c76,1982-12-31,43,M,SP,da Cruz,empregador,individual_familiar
+641,abeea1c2c7c9182c6bb33bcacb7bb31c1ea01a78b2d422e1826cca72fecaaba7,1988-12-30,37,F,SP,Rios,adesao,empresarial
+22051,0f0624427999d25f7f6bdad3744f90305b9dde5cb36d154d71807e610866f455,1965-12-31,60,F,RJ,Casa Grande do Norte,digital,empresarial
+5900,fd19a2030b634185b966125471bbb8af0b64a3aad096d87060203cef0174926c,1968-12-30,57,M,SC,Gonçalves,empregador,individual_familiar
+23423,724c66380a33bf1e7ae164edafba3409283637fac6ff689fb8d213dc82d513d9,1994-12-31,31,M,SC,da Mata da Mata,digital,coletivo_adesao
+18202,ec166997d58fb33b3f378f324cab176f95cd84dfe17c37c292d455b641ede6dc,1983-12-31,42,M,PE,Porto,corretor,empresarial
+10119,8cc55bd472aa8dc66b9b61b3dcb09b41f313be28911e60c27a2bf4eeee27ea4e,1994-12-31,31,F,RJ,LEÃO,corretor,empresarial
+11915,df2d1b78e1643b1eb80b3f7f95f65b32667c2656a16fd6a87d15a23191c15332,1998-12-31,27,F,MG,Camargo,empregador,individual_familiar
+2592,deeb4a845e41e2bf3aac27a2f824d81744d51753e4144df3f9f772e1ed735468,1989-12-31,36,M,BA,Fonseca das Pedras,adesao,individual_familiar
+5412,15c2d6262b48c9a211122893e28de89a4f1b3e0e22204e72e5b214a3667ab3d4,1990-12-31,35,F,RJ,,digital,individual_familiar
+4125,29d638a41414f9dc8701115b1cf9f5baa2e6a42b879ffb5472cb6c17068536ea,1979-12-31,46,F,SP,Sales Grande,corretor,individual_familiar
+23881,a2d2e8784c0f912a1d93686607449b95d029fac3830dcb6aaa9b711759edab81,1994-12-31,31,F,SP,Leão,empregador,empresarial
+10726,5b2e8ac8f2635a4b7b843585db71451bb6268ff82e62cb14e782973db688dd46,1993-12-31,32,M,PR,Gomes,empregador,individual_familiar
+11481,b1a2e2b8637757923c0f65df9791045934b38e73700d7164a51d2405f608b313,1983-12-31,42,F,BA,Costa,corretor,coletivo_adesao
+13798,09774a412ce0d3a16c3b1b0c5fc353df4d25ee2f273a35b23754633bc946a4e9,1973-12-31,52,M,MG,Pimenta Verde,digital,empresarial
+1070,341b3265e146b79e063fcd7528d9acd7b0c7d19853b6025a503ae06de7d16326,1978-12-31,47,F,MG,Nunes,corretor,empresarial
+3326,5ca6f8eb27a05315677feba99713a1cf77feae522222147372b2f8bccd2602cb,1976-12-30,49,F,DF,Santos da Mata,adesao,empresarial
+9323,22f9195f408b8f14b664d1db017dbc4aac02a3ffeec9ab1807b50e1241b63cee,1982-12-31,43,M,PE,Sá do Galho,corretor,empresarial
+7280,85a0e2b1ee221125532b963de046a3683b500725fd2186d606afa7afc3a98287,1972-12-30,53,M,SP,Pinto de Fogaça,corretor,individual_familiar
+15957,04eb4054ac47b82c6fc99089b713ff1c7c48bf174f1bebf688702f6902ecde3e,1990-12-31,35,F,SP,da Cruz,adesao,individual_familiar
+8460,604145abaab3b45da4bb5bdba117d905be073250b8af9f01a00318e54199b5bf,1961-12-31,64,F,MG,Oliveira,corretor,individual_familiar
+10654,e69e04628bd20fa063b075d75f8af8d1891d203207c004758ee61717c592ad0d,2006-12-31,19,F,CE,Macedo,corretor,individual_familiar
+11827,bb27c0c2e8d3b8b13c5a4db8062dce48ec4f1d86952dbc4e0b5099e01fb664c4,1959-12-31,66,M,PR,da Luz,corretor,individual_familiar
+17078,7933a6f0995669361d617168e8a6781363064965beed1b315d5c8360251edf90,1972-12-30,53,F,SP,TEIXEIRA DE MENDONÇA,corretor,individual_familiar
+20742,bed050e14d9903abb1424913ce08002a25e37f3cbb97136a625225053c30ab30,1972-12-30,53,M,PR,Cardoso,corretor,coletivo_adesao
+3976,e9cbf9ee42d0ccfde134d02036c653b26f544666d1253da83857f9f765c1cc26,1980-12-30,45,M,PR,da Mata,corretor,empresarial
+1949,fd09435accc5f2fd1a3a738fe9999df34847c8009574a54cc182eefb343912f0,1967-12-31,58,M,SP,Cavalcante de Câmara,digital,empresarial
+2373,68d59183216f3b7dda1da8c0a1e0705a74280e50adb1a62316f0a759e9a19369,1981-12-31,44,M,RS,da Conceição,corretor,individual_familiar
+23690,980d4e2cb059f6d1655ccca54cf4e3ca53ab774808f1475a9d58ab15b78219b8,1966-12-31,59,F,DF,Mendes das Flores,corretor,individual_familiar
+6087,d1c76ab80392c712b507ddb44e6a6f7f712339c77dbbc1992625ff534132ebbf,1987-12-31,38,F,SP,Barros do Amparo,corretor,empresarial
+10285,4d219163cebaa91db43f92e6508c82f338ed41cfb3cbced788efef3aa75c11a1,1981-12-31,44,F,SP,Vasconcelos de Aparecida,digital,individual_familiar
+7541,4ff752479396c2eaaee55c6c83049b0db6600592ab79f328107962fb485be9c1,1974-12-31,51,F,SP,Sousa do Amparo,corretor,individual_familiar
+6438,0de7e1033a455f8d66d664f640cb104d9ccc28f6cc9627cf05fcf3f2ab07de5f,1987-12-31,38,M,MG,Aparecida,corretor,empresarial
+23170,f87e5b3b24cd82ed5a8260be301d638237e10d09da14e607eb8423858c1b62bf,1981-12-31,44,F,PE,Campos,corretor,coletivo_adesao
+15486,da6b7ef5cd2415347266a2ec01084490015bb2a5839122dc065c074c84a5601d,1987-12-31,38,F,SP,Souza de Araújo,corretor,empresarial
+6525,973ad86df2432890041062cef144ef3e526d15af70c2a6c622d0433ccb4128da,1967-12-31,58,M,SP,Vargas da Mata,corretor,empresarial
+5507,2d87b11edbd7bb3a9ca86efb72c0577254e44b6f854ae51176fcdb86ca8e5adc,1998-12-31,27,M,PE,da Rosa do Galho,digital,empresarial
+13814,460c6e8a15ad0689520b3925d2e41f5ea8734b87a3b5a62f6f9215cb98470d67,1987-12-31,38,F,SP,Machado do Galho,adesao,empresarial
+13459,a589a897020d4a2e6d50d3081e71eebcfcfd4b91ad8063dcf283b2e14d3fb36f,1972-12-30,53,F,SP,Ferreira de da Conceição,empregador,empresarial
+8446,900ab3178d5df7c54fc7aab44b327a081b936bc08ef0af7703ce5b341a182a67,1995-12-31,30,M,BA,Albuquerque do Oeste,corretor,empresarial
+23774,7ae305c1ca7853f5e80269542a6b45cc38349275afcae2a4b7ecb6549c560c7a,1979-12-31,46,M,PR,Melo Grande,corretor,empresarial
+1498,d3cd1362bcff3b2228db7fd88db10507bdb206d918b58303b6d3bbf6aec934c6,1966-12-31,59,F,SP,Porto,digital,empresarial
+24167,61474e7303205749ded2a0f69257019f09f53c48a9d8d6f0b8dbb9c75aee03ce,1986-12-31,39,F,SP,Novaes de Montenegro,corretor,coletivo_adesao
+16177,6d9731638d01cfbf684f570c6001a67ae1234da3f72bffd30b37f07eccc0d533,2003-12-31,22,M,PE,Nunes das Flores,corretor,individual_familiar
