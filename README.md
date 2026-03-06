@@ -27,7 +27,18 @@ A pipeline segue o padrão **Medallion Architecture**, amplamente utilizado em a
 
 Fluxo da pipeline:
 
-Landing > Bronze > Silver > Gold
+Landing → Bronze → Silver → Gold
+
+## Diagrama da arquitetura
+
+```mermaid
+flowchart LR
+    A[Raw Data] --> B[Landing]
+    B --> C[Bronze]
+    C --> D[Silver]
+    D --> E[Gold]
+    E --> F[BI / Analytics]
+```
 
 ---
 
@@ -99,8 +110,8 @@ healthcare-lakehouse-databricks/
 ├── data/
 │   └── raw/
 │   └── sample/
-│   └── cadastro_beneficiarios_sample.csv
-│   └── eventos_assistenciais_sample.parquet
+│     |── cadastro_beneficiarios_sample.csv
+│     |── eventos_assistenciais_sample.parquet
 │
 ├── notebooks/
 │   ├── 00_lakehouse_setup

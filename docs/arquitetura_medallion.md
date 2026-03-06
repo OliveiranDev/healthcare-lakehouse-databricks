@@ -5,6 +5,48 @@ Este projeto utiliza o padrão **Medallion Architecture**, amplamente adotado em
 A arquitetura separa o processamento em diferentes níveis de refinamento, permitindo melhor governança, rastreabilidade e qualidade dos dados.
 
 ---
+## Diagrama completo da arquitetura
+
+```mermaid
+flowchart LR
+    A[Raw Data Sources] --> B[Landing]
+    A1[CSV / JSONL / Parquet / Excel] --> A
+
+    B --> B1[landing.raw]
+    B --> B2[landing.stage]
+    B --> B3[landing.archive]
+
+    B1 --> C[Bronze]
+    B2 --> C
+
+    C --> C1[bronze.cadastro_beneficiarios]
+    C --> C2[bronze.contratos_planos]
+    C --> C3[bronze.eventos_assistenciais]
+    C --> C4[bronze.faturas_pagamentos]
+    C --> C5[bronze.sac_srp_manifestacoes]
+    C --> C6[bronze.app_event_log]
+
+    C --> D[Silver]
+    D --> D1[silver.dim_beneficiarios]
+    D --> D2[silver.fact_contratos]
+    D --> D3[silver.fact_eventos]
+    D --> D4[silver.fact_faturas]
+    D --> D5[silver.fact_sac]
+    D --> D6[silver.fact_app_logs]
+
+    D7[Data Quality / Standardization / Typing] --> D
+
+    D --> E[Gold]
+    E --> E1[gold.kpi_churn]
+    E --> E2[gold.kpi_utilizacao]
+    E --> E3[gold.kpi_inadimplencia]
+    E --> E4[gold.kpi_experiencia]
+    E --> E5[gold.kpi_engajamento]
+
+    E --> F[Power BI / Analytics]
+```
+
+---
 
 # Camada 00_landing
 
