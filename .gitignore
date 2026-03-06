@@ -1,0 +1,26 @@
+# raw data (large datasets)
+data/raw/*
+
+# allow sample datasets
+!data/sample/
+!data/sample/*
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# environments
+.venv/
+.env
+
+# notebooks checkpoints
+.ipynb_checkpoints/
+
+# system files
+.DS_Store
+Thumbs.db
+
+# databricks local exports
+.dbx/
