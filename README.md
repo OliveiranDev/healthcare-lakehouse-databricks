@@ -29,6 +29,54 @@ Fluxo da pipeline:
 
 Landing → Bronze → Silver → Gold
 
+# Camada Silver (tratamento por domínio)
+
+A camada **Silver** é responsável por transformar os dados da Bronze (raw / string-first) em tabelas **tipadas, padronizadas e validadas**, prontas para análises e para alimentar a camada Gold.
+
+## Estratégia adotada
+implementa **um notebook por domínio**, permitindo:
+- falhas isoladas (um domínio não derruba os demais)
+- reprocessamento seletivo
+- ownership/organização por tema (financeiro, assistencial, experiência, digital)
+
+Cada notebook Silver segue o mesmo padrão:
+
+1. **Contexto** (`USE CATALOG ...`)
+2. **Criação de schemas** (`silver`, `silver_rejects`, `silver_ops`)
+3. **Checkpoint** (`silver_ops.pipeline_checkpoint`) para processamento incremental por `ingestion_ts`
+4. **Tabelas destino** (`silver.<tabela>` e `silver_rejects.<tabela>`)
+5. **Leitura incremental do Bronze** (com janela de segurança)
+6. **Tipagem + padronização** (`TRY_CAST`, `TRY_TO_TIMESTAMP`, `UPPER/TRIM`, regras simples de domínio)
+7. **Deduplicação determinística** (`row_number()` por chave natural, ordenando por `ingestion_ts`)
+8. **Regras de qualidade** com `reject_reason`
+9. **Persistência de rejects** (quarentena com motivo)
+10. **Idempotência** via `row_hash` + **MERGE** (Delta)
+11. **Atualização do checkpoint**
+12. **Sanity checks** (contagens, distribuição de motivos/flags)
+
+## Tratamento: rejects vs flags
+Nem toda anomalia deve virar rejeição:
+- **Rejects** para erros estruturais (ex.: chave ausente, data inválida)
+- **Flags** para inconsistências não-bloqueantes (ex.: `http_status` inválido em logs, valores negativos em lançamentos assistenciais), preservando o registro na Silver para análise e auditoria.
+
+## Notebooks Silver implementados
+- `02_silver_dim_beneficiarios.sql`
+- `02_silver_contratos.sql`
+- `02_silver_faturas.sql`
+- `02_silver_eventos.sql`
+- `02_silver_sac.sql`
+- `02_silver_app_logs.sql`
+
+# Observabilidade (DataOps) - Qualidade da Silver
+
+O notebook `02_silver_ops_quality.sql` consolida métricas operacionais de qualidade e execução:
+
+- volumes totais de `silver` e `silver_rejects`
+- % de rejeição total e **% do último load** (via `load_id`)
+- top `reject_reason` do último load por tabela
+- checkpoints (última execução por tabela)
+- persistência de snapshots em `silver_ops.quality_report_history` para histórico e tendência
+
 ## Diagrama da arquitetura
 
 ```mermaid
@@ -117,6 +165,14 @@ healthcare-lakehouse-databricks/
 │   ├── 00_lakehouse_setup
 │   ├── 01_bronze_ingestao
 │   ├── 01_bronze_quality_assessment
+│   ├── 02_silver_00_setup
+│   ├── 02_silver_dim_beneficiarios
+│   ├── 02_silver_contratos
+│   ├── 02_silver_faturas
+│   ├── 02_silver_eventos
+│   ├── 02_silver_sac
+│   ├── 02_silver_app_logs
+│   ├── 02_silver_ops_quality
 │
 ├── src/
 │   └── geracao_dados/
