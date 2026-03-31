@@ -60,12 +60,14 @@ Nem toda anomalia deve virar rejeição:
 - **Flags** para inconsistências não-bloqueantes (ex.: `http_status` inválido em logs, valores negativos em lançamentos assistenciais), preservando o registro na Silver para análise e auditoria.
 
 ## Notebooks Silver implementados
+- `02_silver_00_setup.sql`
 - `02_silver_dim_beneficiarios.sql`
 - `02_silver_contratos.sql`
 - `02_silver_faturas.sql`
 - `02_silver_eventos.sql`
 - `02_silver_sac.sql`
 - `02_silver_app_logs.sql`
+- `02_silver_ops_quality.sql`
 
 # Observabilidade (DataOps) - Qualidade da Silver
 
@@ -76,6 +78,31 @@ O notebook `02_silver_ops_quality.sql` consolida métricas operacionais de quali
 - top `reject_reason` do último load por tabela
 - checkpoints (última execução por tabela)
 - persistência de snapshots em `silver_ops.quality_report_history` para histórico e tendência
+
+# Camada Gold (marts e KPIs para BI)
+
+A camada **Gold** materializa **produtos de dados** prontos para consumo (BI/Analytics), consolidando a visão de negócio em métricas acionáveis para **saúde suplementar**.
+
+## Tabelas Gold implementadas
+- `gold.mart_member_month`: base mensal por beneficiário (`beneficiario_id` x `competencia`) consolidando sinais Financeiro + Assistencial + Experiência + Digital
+- `gold.kpi_sinistralidade`: custo/uso mensal por recortes (UF, segmento, rede, tipo_evento, cid_grupo) + PMPM (proxy)
+- `gold.kpi_churn_admin`: inadimplência por competência/UF/segmento (proxy de churn administrativo)
+- `gold.kpi_experiencia`: experiência por competência/UF/segmento (SAC + digital)
+- `gold.mart_kpi_executivo`: visão executiva mensal (churn admin + custo + experiência)
+
+## Notebooks Gold implementados
+- `03_gold_00_setup.sql`
+- `03_gold_mart_member_month.sql`
+- `03_gold_kpi_sinistralidade.sql`
+- `03_gold_kpi_churn_admin.sql`
+- `03_gold_kpi_experiencia.sql`
+- `03_gold_mart_kpi_executivo.sql`
+
+## Gold Ops (observabilidade)
+- `gold_ops.pipeline_checkpoint`: controle de execução
+- `gold_ops.quality_report_history`: histórico de snapshots da Gold
+- `03_gold_ops_00_setup.sql`
+- `03_gold_ops_quality.sql`: contagens, freshness (max competência), sanity checks e persistência de snapshots
 
 ## Diagrama da arquitetura
 
@@ -165,14 +192,22 @@ healthcare-lakehouse-databricks/
 │   ├── 00_lakehouse_setup
 │   ├── 01_bronze_ingestao
 │   ├── 01_bronze_quality_assessment
-│   ├── 02_silver_00_setup
-│   ├── 02_silver_dim_beneficiarios
-│   ├── 02_silver_contratos
-│   ├── 02_silver_faturas
-│   ├── 02_silver_eventos
-│   ├── 02_silver_sac
-│   ├── 02_silver_app_logs
-│   ├── 02_silver_ops_quality
+│   ├── 02_silver_00_setup.sql
+│   ├── 02_silver_dim_beneficiarios.sql
+│   ├── 02_silver_contratos.sql
+│   ├── 02_silver_faturas.sql
+│   ├── 02_silver_eventos.sql
+│   ├── 02_silver_sac.sql
+│   ├── 02_silver_app_logs.sql
+│   ├── 02_silver_ops_quality.sql
+│   ├── 03_gold_00_setup.sql
+│   ├── 03_gold_mart_member_month.sql
+│   ├── 03_gold_kpi_sinistralidade.sql
+│   ├── 03_gold_kpi_churn_admin.sql
+│   ├── 03_gold_kpi_experiencia.sql
+│   ├── 03_gold_mart_kpi_executivo.sql
+│   ├── 03_gold_ops_00_setup.sql
+│   ├── 03_gold_ops_quality.sql
 │
 ├── src/
 │   └── geracao_dados/
